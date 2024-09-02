@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx ts-node test.ts"
+    "test": "npx playwright test --ui"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
     "@types/node": "^20.14.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1"
   }
 }
